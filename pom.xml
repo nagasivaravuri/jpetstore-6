@@ -224,7 +224,7 @@
             <container>
               <containerId>${cargo.maven.containerId}</containerId>
               <zipUrlInstaller>
-                <url>${cargo.maven.containerUrl}</url>
+                <url><cargo.maven.containerUrl>https://downloads.apache.org/tomcat/tomcat-9/v9.0.100/bin/apache-tomcat-9.0.100.zip</cargo.maven.containerUrl></url>
               </zipUrlInstaller>
             </container>
             <daemon>
